@@ -1,0 +1,65 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Rezepte",
+        "description": "160 Rezepte in 8 Kategorien. Zutaten landen per Dienst auf der Einkaufsliste des gewählten Marktes.",
+        "data": {
+          "eigene_liste": "To-do-Liste für eigene Rezepte"
+        }
+      }
+    },
+    "abort": {
+      "single_instance_allowed": "Es ist nur eine Instanz erlaubt."
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Rezepte",
+        "data": {
+          "eigene_liste": "To-do-Liste für eigene Rezepte"
+        }
+      }
+    }
+  },
+  "services": {
+    "rezept_einkaufen": {
+      "name": "Zutaten einkaufen",
+      "description": "Legt die Zutaten eines Rezepts auf die Einkaufsliste des gewählten Marktes.",
+      "fields": {
+        "rezept": {
+          "name": "Rezept-Schlüssel",
+          "description": "Interner Schlüssel, z. B. lasagne."
+        }
+      }
+    },
+    "eigenes_rezept_anlegen": {
+      "name": "Eigenes Rezept anlegen",
+      "description": "Speichert ein eigenes Rezept in der To-do-Liste.",
+      "fields": {
+        "name": {
+          "name": "Name",
+          "description": "Name des Rezepts."
+        },
+        "kategorie": {
+          "name": "Kategorie",
+          "description": "Kategorie oder Sonstiges."
+        },
+        "zutaten": {
+          "name": "Zutaten",
+          "description": "Zutatenliste."
+        },
+        "ablauf": {
+          "name": "Ablauf",
+          "description": "Zubereitung."
+        }
+      }
+    },
+    "alle_einblenden": {
+      "name": "Alles einblenden",
+      "description": "Blendet alle ausgeblendeten Rezepte und Kategorien wieder ein.",
+      "fields": {}
+    }
+  }
+}

@@ -1,0 +1,20 @@
+rezept_einkaufen:
+  fields:
+    rezept:
+      selector:
+        text: null
+eigenes_rezept_anlegen:
+  fields:
+    name:
+      selector:
+        text: null
+    kategorie:
+      selector:
+        text: null
+    zutaten:
+      selector:
+        text: null
+    ablauf:
+      selector:
+        text: null
+alle_einblenden: {}
