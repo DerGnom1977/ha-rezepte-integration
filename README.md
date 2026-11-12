@@ -1,6 +1,10 @@
 # Rezepte
 
+![Rezepte](https://raw.githubusercontent.com/DerGnom1977/ha-rezepte-integration/main/images/preview.png)
+
 160 Rezepte in 8 Kategorien. Zutaten landen per Dienst auf der Einkaufsliste des gewählten Marktes.
+
+![Dashboard](https://raw.githubusercontent.com/DerGnom1977/ha-rezepte-integration/main/images/dashboard.jpg)
 
 Python-Integration für Home Assistant (HACS). Sie ersetzt das bisherige YAML-Paket
 `rezepte/packages/rezepte.yaml`: Einstellungen sind jetzt eigene Entitäten (Schalter, Zahlen, Auswahlfelder,
